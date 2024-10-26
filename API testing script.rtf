@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;\red29\green0\blue255;
+\red107\green0\blue67;\red19\green118\blue70;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;\cssrgb\c16471\c0\c100000;
+\cssrgb\c50196\c1961\c33333;\cssrgb\c3529\c52549\c34510;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \cb2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 pm.test(\cf4 \strokec4 "Status code is 200"\cf0 \strokec3 , \cf5 \strokec5 function\cf0 \strokec3  () \{\cb1 \
+\cb2     pm.response.to.have.status(\cf6 \strokec6 200\cf0 \strokec3 );\cb1 \
+\cb2 \});\cb1 \
+\
+\cb2 pm.test(\cf4 \strokec4 "Response should have IP field"\cf0 \strokec3 , \cf5 \strokec5 function\cf0 \strokec3  () \{\cb1 \
+\cb2     pm.expect(pm.response.json()).to.have.property(\cf4 \strokec4 "ip"\cf0 \strokec3 );\cb1 \
+\cb2 \});\cb1 \
+\
+\cb2 pm.test(\cf4 \strokec4 "Response should have country field"\cf0 \strokec3 , \cf5 \strokec5 function\cf0 \strokec3  () \{\cb1 \
+\cb2     pm.expect(pm.response.json()).to.have.property(\cf4 \strokec4 "country"\cf0 \strokec3 );\cb1 \
+\cb2 \});\cb1 \
+\
+\cb2 pm.test(\cf4 \strokec4 "Response should have cc field"\cf0 \strokec3 , \cf5 \strokec5 function\cf0 \strokec3  () \{\cb1 \
+\cb2     pm.expect(pm.response.json()).to.have.property(\cf4 \strokec4 "cc"\cf0 \strokec3 );\cb1 \
+\cb2 \});\cb1 \
+\
+}
